@@ -1,0 +1,16 @@
+.container {
+  min-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #2e2d4e;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+.text {
+  font-family: Poppins, sans-serif;
+}
+
+strong {
+  color: rgb(218, 201, 250);
+}

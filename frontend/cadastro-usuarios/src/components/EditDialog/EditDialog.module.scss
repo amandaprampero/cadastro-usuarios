@@ -1,0 +1,29 @@
+.button {
+  border-radius: 20px;
+  padding: 0.5rem;
+  width: 10rem;
+  background-color: #8e46d6;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.485) 2px 2px 5px;
+  border: none;
+  &:hover {
+    background-color: thistle;
+    color: indigo;
+    cursor: pointer;
+  }
+}
+
+.cancel {
+  border-radius: 20px;
+  padding: 0.5rem;
+  width: 10rem;
+  background-color: transparent;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.485) 2px 2px 5px;
+  border: 1px solid #8e46d6;
+  &:hover {
+    background-color: indigo;
+    color: thistle;
+    cursor: pointer;
+  }
+}
